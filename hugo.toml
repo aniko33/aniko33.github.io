@@ -1,0 +1,71 @@
+baseURL = '/'
+languageCode = 'en-us'
+theme = "poison"
+paginate = 10
+pluralizelisttitles = false 
+
+[params]
+    brand = "Aniko"                      # name of your site - appears in the sidebar
+    remote_brand_image = 'https://github.com/aniko33.png'
+    description = "A malware developer" # Used as default meta description if not specified in front matter
+    dark_mode = true                      # optional - defaults to false
+    favicon = "/favicon.png"             # path to favicon (defaults to favicon.png)
+
+    front_page_content = ["posts"] # Equivalent to the default value, add page bundle names to include them on the front page.
+
+    moon_sun_background_color = "#363636"   # default is #515151
+    moon_sun_color = "#9458f5"                 # default is #FFF
+    sidebar_a_color = "#a355c9"                # default is #FFF
+    sidebar_bg_color = "#202020"            # default is #202020
+    sidebar_h1_color = "#8f53b8"               # default is #FFF
+    sidebar_img_border_color = "#8f53b8"    # default is #515151
+    sidebar_p_color = "#737373"             # default is #909090
+    sidebar_socials_color = "#FFF"          # default is #FFF
+
+    # Hex colors for your content in light mode.
+    code_color = "#000"                     # default is #000
+    code_background_color = "#E5E5E5"       # default is #E5E5E5
+    code_block_color = "#FFF"               # default is #FFF
+    code_block_background_color = "#272822" # default is #272822
+    content_bg_color = "#FAF9F6"            # default is #FAF9F6
+    date_color = "#515151"                  # default is #515151
+    link_color = "#0776de"                  # default is #268BD2
+    list_color = "#5A5A5A"                  # default is #5A5A5A
+    post_title_color = "#303030"            # default is #303030
+    table_border_color = "#1c1c1c"          # default is #E5E5E5
+    table_stripe_color = "#F9F9F9"          # default is #F9F9F9
+    text_color = "#222"                     # default is #222
+
+    # Hex colors for your content in dark mode
+    code_color_dark = "#FFF"                        # default is #FFF
+    code_background_color_dark = "#2e2e2e"          # default is #515151
+    code_block_color_dark = "#FFF"                  # default is #FFF
+    code_block_background_color_dark = "#242424"    # default is #272822
+    content_bg_color_dark = "#1a1a1a"               # default is #121212
+    date_color_dark = "#9A9A9A"                     # default is #9A9A9A
+    link_color_dark = "#a355c9"                     # default is #268BD2
+    list_color_dark = "#9D9D9D"                     # default is #9D9D9D
+    post_title_color_dark = "#a54ab5"               # default is #DBE2E9
+    table_border_color_dark = "#613e69"             # default is #515151
+    table_stripe_color_dark = "#242424"             # default is #202020
+    text_color_dark = "#a8a8a8"                        # default is #EEE
+
+    # MENU PLACEHOLDER
+    # Menu dict keys:
+        # Name:         The name to display on the menu.
+        # URL:          The directory relative to the content directory.
+        # HasChildren:  If the directory's files should be listed.  Default is true.
+        # Limit:        If the files should be listed, how many should be shown.
+    menu = [
+        {Name = "About Me", URL = "/about/", HasChildren = false},
+        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+    ]
+
+    # Links to your socials.  Comment or delete any you don't need/use. 
+    github_url = "https://github.com/aniko33"
+
+[taxonomies]
+    series = 'series'
+    tags = 'tags'
+
+
