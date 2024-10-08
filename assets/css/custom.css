@@ -1,6 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@font-face {
+    font-family: "Reenie Beanie";
+    src: url('/fonts/ReenieBeanie-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "UbuntuMono";
+    src: url('/fonts/UbuntuMono-Regular.ttf') format('truetype');
+}
 
 .sidebar-about h1 {
   font-size: 1.6em;
   font-family: "Reenie Beanie", cursive;
+}
+
+.sidebar-about p {
+  font-size: 1.1em;
 }
