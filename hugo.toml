@@ -5,6 +5,14 @@ theme = "smol"
 paginate = 5
 pluralizelisttitles = false 
 
+[[module.mounts]]
+source = 'assets'
+target = 'assets'
+
+[[module.mounts]]
+source = 'static/imgs'
+target = 'assets/imgs'
+
 # Parameters
 [params]
     subtitle = "Veni Vidi Vici"
