@@ -237,7 +237,7 @@ app@codeparttwo:~/app/instance$ sqlite3 -batch users.db "SELECT * FROM user;"
 
 Now we get some credentials, is time do brute-force user marco.
 
-I suggest to use [CrackStation](https://crackstation.net/) to brute-force CTF flags.
+I suggest to use [CrackStation](https://crackstation.net/) to brute-force CTF hashes.
 
 ![CrackedHash](/images/CodePartTwoHash.png)
 
